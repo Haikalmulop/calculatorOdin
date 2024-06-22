@@ -2,7 +2,7 @@ let n1 = ''; //currentValue
 let n2 = ''; //previousValue
 let operators = '';
 
-const display = document.querySelector("#display")
+const display = document.querySelector("#display-container")
 const numbersBtn = document.querySelectorAll("#numbers")
 const operatorBtn = document.querySelectorAll("#operator")
 const clearBtn = document.querySelector("#clear")

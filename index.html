@@ -8,29 +8,31 @@
 </head>
 <body>
     <div class="container">
-        <div id="display container">
+        <div id="display-container">
             <div id="previous">0</div>
             <div id="current">0</div>
         </div>
 
-        <button id="numbers" onclick="numbers">0</button>
-        <button id="numbers" onclick="numbers">1</button>
-        <button id="numbers" onclick="numbers">2</button>
-        <button id="numbers" onclick="numbers">3</button>
-        <button id="numbers" onclick="numbers">4</button>
-        <button id="numbers" onclick="numbers">5</button>
-        <button id="numbers" onclick="numbers">6</button>
-        <button id="numbers" onclick="numbers">7</button>
-        <button id="numbers" onclick="numbers">8</button>
-        <button id="numbers" onclick="numbers">9</button>
-        <button id="operator">+</button>
-        <button id="operator">-</button>
-        <button id="operator">*</button>
-        <button id="operator">/</button>
-        <button id="equal">=</button>
-        <button id="clear">AC</button>
-        <button id="decimal">.</button>
-
+        <div class="test-grid">  
+            <button id="clear">AC</button>
+            <button id="operator" class="divide">/</button>
+            <button id="operator"class="multiply">X</button>
+            <button id="operator"class="minus">-</button>    
+            <button id="numbers">9</button>
+            <button id="numbers">8</button>
+            <button id="numbers">7</button>
+            <button id="operator" class="plus">+</button>
+            <button id="numbers">6</button>
+            <button id="numbers">5</button>
+            <button id="numbers">4</button>
+            <button id="equal">=</button>
+            <button id="numbers" class="three">3</button>
+            <button id="numbers">2</button>
+            <button id="numbers">1</button>
+            <button id="numbers" class="zero">0</button>
+            <button id="decimal">.</button>      
+        </div>
+        
     </div>
     <script src="script.js"></script>
 </body>
